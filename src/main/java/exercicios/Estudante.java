@@ -123,4 +123,8 @@ public class Estudante {
     public boolean isAprovado(){
         return nota >= 6;
     }
+
+    public boolean hasNota() {
+        return nota > 0;
+    }
 }
